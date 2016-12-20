@@ -61,4 +61,5 @@ while i < len(saying): # len class grabs the length of array saying
 	
 	i = i+1
 
-print (saying)
+saying = "".join(saying) # use join method to concatanate the list into a string 
+print (saying) 
